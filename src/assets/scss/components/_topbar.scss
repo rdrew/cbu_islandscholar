@@ -1,0 +1,26 @@
+.top-bar__wrapper {
+    background: $topbar-background;
+}
+
+.logo-wrapper {
+}
+
+.grid-container.top-bar {
+    position: relative;
+}
+
+.logo-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    //width: 15.97%;
+    //max-width: 220px;
+    //max-width: 22rem;
+    width: rem-calc(140);
+    z-index: 60;
+}
+.top-bar {
+    .button-group {
+        margin-bottom:0;
+    }
+}

@@ -1,0 +1,43 @@
+
+.showcase-top,
+.showcase-bottom {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+#Showcase {
+    position: relative;
+}
+
+.showcase-top {
+    .site-title {
+        font-family: $pn-black;
+        font-size:rem-calc(60);
+
+    }
+    color:white;
+    position: absolute;
+    z-index: 5;
+    top: 20%;
+    left: 0;
+    right: 0;
+    width: 35%;
+    margin: auto;
+}
+
+.showcase-bottom {
+    color: white;
+    background: rgba(118, 118, 118, 0.7);
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: 4;
+    padding: 20px 0;
+    .button-group {
+        margin-bottom:0;
+    }
+}
+.yellow {
+    color:$yellow;
+}
