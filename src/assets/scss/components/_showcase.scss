@@ -13,7 +13,9 @@
 .showcase-top {
     .site-title {
         font-family: $pn-black;
-        font-size:rem-calc(60);
+        font-size: 4.7vw;
+        margin-bottom:0px;
+        //font-size:rem-calc(60);
 
     }
     color:white;
@@ -22,11 +24,12 @@
     top: 20%;
     left: 0;
     right: 0;
-    width: 35%;
+    width: 30%;
     margin: auto;
 }
 
 .showcase-bottom {
+    @include show-for(large);
     color: white;
     background: rgba(118, 118, 118, 0.7);
     position: absolute;
