@@ -8,7 +8,7 @@
 .grid-container.top-bar {
     position: relative;
 }
-
+$logo-width: 140px;
 .logo-wrapper {
     position: absolute;
     top: 0;
@@ -16,7 +16,7 @@
     //width: 15.97%;
     //max-width: 220px;
     //max-width: 22rem;
-    width: rem-calc(140);
+    width: rem-calc($logo-width);
     z-index: 60;
 }
 .top-bar {
@@ -37,4 +37,6 @@
     }
     //text-indent: right;
 }
-
+.interior-pages .main-menu {
+    margin-left: $logo-width;
+}
