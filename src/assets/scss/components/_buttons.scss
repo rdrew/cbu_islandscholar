@@ -9,10 +9,11 @@
    $button-background:$green;
 }
 .yellow-button {
-    border:none;
-    background-color:$yellow;
+    //border:none;
+    //$button-background:$yellow;
+    //background-color:$yellow;
 
-    border-bottom: 4px solid scale-color($yello, $lightness: -35%);
+    //border-bottom: 4px solid scale-color($button-background, $lightness: -35%);
 }
 
 .button {
