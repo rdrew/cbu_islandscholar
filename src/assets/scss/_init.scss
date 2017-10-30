@@ -1,12 +1,20 @@
+//================================
+// Global stuff
+//================================
+@import 'components/fonts';
+@import 'components/layout';
+@import 'components/global-stuff';
+//================================
+// Regions
+//================================
 @import 'components/topbar';
 @import 'components/showcase';
 @import 'components/above-footer';
 @import 'components/footer';
-
+//================================
+// Components
+//================================
 @import 'components/buttons';
-
-@import 'components/landingpage';
-@import 'components/layout';
 @import 'components/list-block';
-@import 'components/global-stuff';
+@import 'components/landingpage';
 
