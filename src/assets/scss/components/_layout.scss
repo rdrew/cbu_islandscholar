@@ -6,6 +6,12 @@
     margin-bottom:$global-margin*2;
     margin-top:$global-margin*2;
 }
+.default-layout, .sidebar-layout {
+    .content {
+
+    margin-top:$global-margin*5;
+    }
+}
 .above-footer {
 
     margin-bottom:$global-margin*2;
